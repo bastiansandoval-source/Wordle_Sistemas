@@ -5,25 +5,18 @@ import streamlit as st
 # CONFIGURACIÓN GENERAL
 # =========================
 st.set_page_config(
-    page_title="Wordle Sistemas",
+    page_title="Wordle Cinemática",
     page_icon="🟩",
     layout="centered"
 )
 
 PALABRAS = [
-    "CLIMA",
-    "NUBES",
-    "AGUAS",
-    "SOLAR",
-    "FAUNA",
-    "FLORA",
-    "VAPOR",
-    "CALOR",
-    "CICLO",
-    "FLUJO",
-    "LAGOS",
-    "MARES",
-    "CERRO",
+    "VELOZ", "METRO", "RECTA", "CURVA", "MOVIL", 
+    "MEDIA", "TRAMO", "CICLO", "RITMO", "LENTO", 
+    "ANDAR", "VIAJE", "SUELO", "PUNTO", "LINEA", 
+    "PLANO", "MARCA", "HORAS", "DATOS", "MEDIR", 
+    "REGLA", "RAZON",  "LAPSO", "MARCO", 
+    "FINAL", "CAIDA", "SUBIR", "GIROS"
 ]
 
 MAX_INTENTOS = 6
@@ -137,7 +130,7 @@ st.markdown(
 # =========================
 # INTERFAZ
 # =========================
-st.markdown('<div class="titulo">🌍 Wordle: Sistemas del planeta</div>', unsafe_allow_html=True)
+st.markdown('<div class="titulo">🚀 Wordle: Cinemática </div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="subtitulo">Adivina una palabra de 5 letras relacionada con la clase</div>',
     unsafe_allow_html=True
